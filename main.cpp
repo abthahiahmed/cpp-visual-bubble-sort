@@ -1,6 +1,6 @@
+// Visualization of Bubble Sort Algorithm | Abthahi Ahmed Rifat
 #include <iostream>
 #include <math.h>
-#include <vector>
 #include <SDL2/SDL.h>
 
 using namespace std;
@@ -15,9 +15,7 @@ int random(int a, int b){
 }
 
 void drawRect(SDL_Rect rect){
-	
-	SDL_RenderFillRect(ren, &rect);
-	
+	SDL_RenderFillRect(ren, &rect);	
 }
 
 int main(int argc, char *argv[]){
